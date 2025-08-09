@@ -17,7 +17,7 @@ const HeroSection = () => {
             <span className="text-gradient-primary">Asha M</span>
           </h1>
           <div className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Computer Science Student & Web Developer
+            Computer Science Student
             <br />
             <span className="text-gradient-accent">Building the future with code</span>
           </div>
@@ -29,10 +29,16 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <Button variant="tech" size="lg" className="animate-glow-pulse">
-              <Download className="w-5 h-5" />
-              Download Resume
-            </Button>
+            <a 
+              href="https://drive.google.com/file/d/1p0Gh1sVcPfqTYmUpRelHJuGu6XMb4W8h/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="tech" size="lg" className="animate-glow-pulse">
+                <Download className="w-5 h-5" />
+                Download Resume
+              </Button>
+            </a>
             <Button variant="hero" size="lg">
               View My Work
             </Button>

@@ -84,10 +84,16 @@ const ContactSection = () => {
                 })}
               </div>
 
-              <Button variant="download" size="lg" className="w-full">
-                <Download className="w-5 h-5" />
-                Download Resume
-              </Button>
+              <a 
+                href="https://drive.google.com/file/d/1p0Gh1sVcPfqTYmUpRelHJuGu6XMb4W8h/view?usp=drivesdk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="download" size="lg" className="w-full">
+                  <Download className="w-5 h-5" />
+                  Download Resume
+                </Button>
+              </a>
             </Card>
           </div>
 
