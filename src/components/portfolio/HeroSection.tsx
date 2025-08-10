@@ -17,15 +17,13 @@ const HeroSection = () => {
             <span className="text-gradient-primary">Asha M</span>
           </h1>
           <div className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Computer Science Student
-            <br />
-            <span className="text-gradient-accent">Building the future with code</span>
+            <span className="text-gradient-accent">Computer Science Student | Web Developer | AI Enthusiast</span>
           </div>
           
           <p className="text-lg text-muted-foreground mb-12 max-w-4xl mx-auto leading-relaxed">
-            I'm a dedicated Computer Science student with a strong foundation in web development 
-            and a keen interest in artificial intelligence. I enjoy creating clean, user-focused 
-            digital experiences using modern technologies.
+            3rd-year Computer Science student with 6+ virtual internships, 10+ certifications, and a CGPA of 9.0. 
+            Skilled in Java, Python, Web Development, and Cloud Technologies. Passionate about building impactful 
+            projects in AI and software development.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
@@ -39,9 +37,11 @@ const HeroSection = () => {
                 Download Resume
               </Button>
             </a>
-            <Button variant="hero" size="lg">
-              View My Work
-            </Button>
+            <a href="#resume">
+              <Button variant="hero" size="lg">
+                View Resume
+              </Button>
+            </a>
           </div>
 
           <div className="flex justify-center space-x-6 mb-16">
@@ -75,6 +75,26 @@ const HeroSection = () => {
           >
             <ArrowDown className="w-8 h-8" />
           </button>
+        </div>
+      </div>
+      
+      {/* Quick Highlights Section */}
+      <div className="bg-card border-t border-border py-12">
+        <div className="container-custom">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="flex flex-col items-center">
+              <div className="text-3xl font-bold text-gradient-primary mb-2">6+</div>
+              <div className="text-muted-foreground">Virtual Internships</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-3xl font-bold text-gradient-accent mb-2">10+</div>
+              <div className="text-muted-foreground">Professional Certifications</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-3xl font-bold text-gradient-primary mb-2">9.0</div>
+              <div className="text-muted-foreground">CGPA in Computer Science</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

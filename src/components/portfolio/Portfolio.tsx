@@ -4,6 +4,7 @@ import AboutSection from "./AboutSection";
 import ProjectsSection from "./ProjectsSection";
 import SkillsSection from "./SkillsSection";
 import CertificationsSection from "./CertificationsSection";
+import ResumeSection from "./ResumeSection";
 import ContactSection from "./ContactSection";
 
 const Portfolio = () => {
@@ -15,6 +16,7 @@ const Portfolio = () => {
       <ProjectsSection />
       <SkillsSection />
       <CertificationsSection />
+      <ResumeSection />
       <ContactSection />
       
       {/* Footer */}
