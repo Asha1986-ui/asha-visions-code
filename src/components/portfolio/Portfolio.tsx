@@ -23,7 +23,7 @@ const Portfolio = () => {
       <footer className="py-8 border-t border-border bg-card">
         <div className="container-custom text-center">
           <p className="text-muted-foreground">
-            © 2024 Asha. Built with React, TypeScript & Tailwind CSS
+            © 2024 Asha M. Built with React, TypeScript & Tailwind CSS
           </p>
         </div>
       </footer>

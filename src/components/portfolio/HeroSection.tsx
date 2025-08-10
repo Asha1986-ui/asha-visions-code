@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="container-custom text-center">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-gradient-primary">Asha</span>
+            <span className="text-gradient-primary">Asha M</span>
           </h1>
           <div className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             <span className="text-gradient-accent">Computer Science Student | Web Developer | AI Enthusiast</span>
