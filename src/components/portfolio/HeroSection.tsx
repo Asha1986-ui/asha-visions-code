@@ -37,7 +37,11 @@ const HeroSection = () => {
                 Download Resume
               </Button>
             </a>
-            <a href="#resume">
+            <a 
+              href="https://drive.google.com/file/d/1p0Gh1sVcPfqTYmUpRelHJuGu6XMb4W8h/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button variant="hero" size="lg">
                 View Resume
               </Button>
