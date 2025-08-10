@@ -11,7 +11,7 @@ const CertificationsSection = () => {
     { name: "AWS Cloud Practitioner Essentials", provider: "AWS", category: "Cloud Computing" },
     { name: "Java Fundamentals", provider: "Oracle", category: "Programming" },
     { name: "Java Programming", provider: "Infosys", category: "Programming" },
-    { name: "Data Structures & Python", provider: "Wingspan", category: "Programming" },
+    { name: "Data Structures and Algorithms", provider: "Simplilearn", category: "Programming" },
     { name: "CompTIA IT Fundamentals", provider: "Infosys", category: "IT Fundamentals" },
     { name: "Google Basic Tech Badge", provider: "Google", category: "Technology" },
     { name: "Cybersecurity Fundamentals", provider: "Deloitte", category: "Security" },
